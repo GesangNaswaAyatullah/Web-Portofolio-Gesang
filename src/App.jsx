@@ -27,11 +27,10 @@ function App() {
           <p className="text-base/loose mb-6 text-justify opacity-50">I am a student at Sepuluh Nopember Institute of Technology with a strong interest in construction engineering, water resources infrastructure, technical drawing, and field project implementation. I have a solid understanding of technical planning and execution, supported by skills in systematic analysis, problem-solving, calculation, and project documentation, allowing me to contribute in a structured and effective manner. I am disciplined, adaptable, highly motivated to learn, and committed to continuously developing my competencies while providing reliable, practical, and results-oriented support in every project I undertake.</p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
-              href="/CV Gesang Naswa Ayatullah.pdf"
+              href={`${import.meta.env.BASE_URL}CV Gesang Naswa Ayatullah.pdf`}
               download
-              className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
             >
-              Download CV <i className="ri-download-line ri-lg"></i>
+              Download CV
             </a>
             <a href="#proyek" className="bg-black p-4 rounded-2xl hover:bg-zinc-800">
               Project <i className="ri-arrow-down-line ri-lg"></i>
