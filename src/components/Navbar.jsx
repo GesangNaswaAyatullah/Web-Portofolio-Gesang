@@ -39,7 +39,7 @@ const Navbar = () => {
         justify-center md:justify-start
         ${active ? "opacity-100" : "opacity-0 md:opacity-100"}`}>
                 <li>
-                    <a href="#beranda" className="sm:text-lg text-base font-bold text-violet-700"></a>
+                    <a href="#" className="sm:text-lg text-base font-bold text-violet-700">Home</a>
                 </li>
                 <li>
                     <a href="#tentang" className="sm:text-lg text-base font-bold text-violet-700">About</a>

@@ -76,7 +76,7 @@ function App() {
               I am Diploma in Civil Engineering · Started in August 2022 · GPA 3.46 / 4.00
             </p>
             <p className="text-base/loose mb6 text-center opacity-50 leading-relaxed">
-              Focused on Water Resources Construction Engineering Technology, including hydraulic infrastructure, technical planning, construction systems, and applied field engineering. I bring practical experience in technical drafting, survey support, and project supervision, supported by proficiency in AutoCAD, SketchUp, Revit, PLAXIS 3D, PLAXIS 2D, GeoStudio, SAP2000, Lumion, and Enscape. My work emphasizes clarity, accuracy, and reliable engineering documentation.
+              Focused on Water Resources Construction Engineering Technology, including hydraulic infrastructure, technical planning, construction systems, and applied field engineering. I bring practical experience in technical drafting, survey support, and project supervision, supported by proficiency in AutoCAD, SketchUp, Revit, PLAXIS 3D, HEC-Ras, GeoStudio, ArcGIS, and Lumion. My work emphasizes clarity, accuracy, and reliable engineering documentation.
             </p>
             <div className="mt-auto flex flex-col sm:flex-row sm:items-center justify-between gap-6 md:gap-8">
               <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:block hidden" loading="lazy" />
@@ -211,16 +211,16 @@ function App() {
           {/* Experience 3 */}
           <div>
             <h3 className="font-semibold text-white">
-              Staff Project Engineering - BBWS Pemali
+              Staff Project Engineering - PT. NINDYA KARYA
             </h3>
             <p className="text-sm opacity-60 mb-2">
               Semarang, Indonesia · Juli 2025 – Desember 2025
             </p>
 
             <ul className="list-disc ml-5 space-y-1">
-              <li>Construction Project Understanding</li>
-              <li>Technical Drawing & Documentation Review</li>
-              <li>Site Supervision & Field Observation</li>
+              <li>Field Inventory Section</li>
+              <li>Prepared and maintained technical reports, progress documentation</li>
+              <li>Supported documentation of field activities and engineering updates</li>
             </ul>
           </div>
 
