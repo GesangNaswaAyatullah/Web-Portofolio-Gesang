@@ -29,8 +29,9 @@ function App() {
             <a
               href={`${import.meta.env.BASE_URL}CV Gesang Naswa Ayatullah.pdf`}
               download
+              className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
             >
-              Download CV
+              Download CV <i className="ri-download-line ri-lg"></i>
             </a>
             <a href="#proyek" className="bg-black p-4 rounded-2xl hover:bg-zinc-800">
               Project <i className="ri-arrow-down-line ri-lg"></i>
