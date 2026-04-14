@@ -465,7 +465,7 @@ function App() {
 
             {/* IMPORTANT SETTINGS */}
             <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_next" value="http://localhost:5173/" />
+            <input type="hidden" name="_next" value="https://gesangnaswaayatullah.github.io/Web-Portofolio-Gesang/" />
 
             <h2 className="text-xl font-semibold mb-4">Send Message</h2>
 
@@ -476,7 +476,7 @@ function App() {
                 <input
                   type="text"
                   name="name"
-                  placeholder="Masukan Nama..."
+                  placeholder="Input Name..."
                   className="border border-zinc-600 bg-zinc-900 p-2 rounded-md"
                   required
                 />
@@ -487,7 +487,7 @@ function App() {
                 <input
                   type="email"
                   name="email"
-                  placeholder="Masukan Email..."
+                  placeholder="Input Email..."
                   className="border border-zinc-600 bg-zinc-900 p-2 rounded-md"
                   required
                 />
@@ -498,7 +498,7 @@ function App() {
                 <textarea
                   name="message"
                   rows="5"
-                  placeholder="Pesan..."
+                  placeholder="Input Message..."
                   className="border border-zinc-600 bg-zinc-900 p-2 rounded-md"
                   required
                 ></textarea>
@@ -508,7 +508,7 @@ function App() {
                 type="submit"
                 className="w-full cursor-pointer p-3 rounded-md bg-violet-700 hover:bg-violet-600 transition"
               >
-                Kirim Pesan
+                Send Message
               </button>
 
             </div>
